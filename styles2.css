@@ -164,7 +164,7 @@ p {
 
         .topmenu {display: none;}
         .menuToogle {cursor: pointer;}
-        .menuToogle i {font-size: 30pt;}
+        .menuToogle i {font-size: 40pt;}
 
 
         .burgerMenu {
@@ -177,6 +177,7 @@ p {
         .burgerMenu a {
             font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
             letter-spacing: 2px;
+            font-size: 30px;
             position: relative;
             padding: 0px;
             margin: 0;
@@ -204,7 +205,7 @@ p {
         .menu span i {
             display: inline-block;
             vertical-align: middle;
-            font-size: 14pt;
+            font-size: 30pt;
             padding-right:0px;
             margin-left: -9px;
             cursor: pointer;
@@ -219,7 +220,7 @@ p {
             display: none;
         }
 
-        .burgerSubmenu a {font-size: 12px;}
+        .burgerSubmenu a {font-size: 25px;}
 
         #SubmenuCheck:checked + .burgerSubmenu {
             display: block; margin: 0; padding: 0;
@@ -233,18 +234,18 @@ p {
             display: none;
         }
 
-        .burgerSubsubmenu a {font-size: 10px;}
+        .burgerSubsubmenu a {font-size: 20px;}
 
         #SubsubmenuCheck:checked + .burgerSubsubmenu {
             display: block; margin: 0; padding: 0; letter-spacing: 1px;
         }
-        .menu .burgerSubmenu span i {font-size: 14pt;}
+        .menu .burgerSubmenu span i {font-size: 30pt;}
 
         .burgerSubsubmenuTwo {
             display: none;
         }
 
-        .burgerSubsubmenuTwo a {font-size: 10px;}
+        .burgerSubsubmenuTwo a {font-size: 20px;}
 
         #SubsubmenuCheckTwo:checked + .burgerSubsubmenuTwo {
             display: block; margin: 0; padding: 0; letter-spacing: 1px;
