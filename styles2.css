@@ -204,7 +204,7 @@ p {
 
         .menu span i {
             display: inline-block;
-            vertical-align: middle;
+            vertical-align: top;
             font-size: 30pt;
             padding-right:0px;
             margin-left: -9px;
@@ -220,7 +220,7 @@ p {
             display: none;
         }
 
-        .burgerSubmenu a {font-size: 25px;}
+        .burgerSubmenu a {font-size: 25px; font-style: italic;}
 
         #SubmenuCheck:checked + .burgerSubmenu {
             display: block; margin: 0; padding: 0;
@@ -239,7 +239,7 @@ p {
         #SubsubmenuCheck:checked + .burgerSubsubmenu {
             display: block; margin: 0; padding: 0; letter-spacing: 1px;
         }
-        .menu .burgerSubmenu span i {font-size: 30pt;}
+        .menu .burgerSubmenu span i {font-size: 25pt; vertical-align: top;}
 
         .burgerSubsubmenuTwo {
             display: none;
@@ -252,6 +252,20 @@ p {
         }
 
         #SubsubmenuCheckTwo {display:none;}
+
+        
+        
+        /* Element4 */
+
+        #SubmenuCheckFour {display:none;}
+
+        .burgerSubmenuFour {display: none;}
+
+        #SubmenuCheckFour:checked + .burgerSubmenuFour {
+            display: block; margin: 0; padding: 0; letter-spacing: 1px;
+        }
+
+        .burgerSubmenuFour a {font-size:25px; font-style: italic;}
 
         
 }
